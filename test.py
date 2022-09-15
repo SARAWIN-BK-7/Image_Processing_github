@@ -1,5 +1,6 @@
 import cv2 # import library OpenCV 
 import numpy as np # import library Numpy 
+import test_room_020922 as tr
 
 
 img = cv2.imread("test_room\cat2.png") # Read the image file
@@ -11,8 +12,6 @@ half_color = img[0:600, 600:1200] # Set img size
 
 gray3channel = np.dstack((half_gray, half_gray, half_gray)) # Sort Array 3 channel
 new_img = np.hstack((gray3channel, half_color)) # build a new_img by gray3channel and half_color come together
-
-
 
 # ---------------------------- Display image --------------------------------------
 
