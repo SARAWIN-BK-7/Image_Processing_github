@@ -1,6 +1,6 @@
 import cv2 # import library OpenCV 
 import numpy as np # import library Numpy 
-import test_room_020922 as tr
+
 
 
 img = cv2.imread("test_room\cat2.png") # Read the image file
