@@ -12,7 +12,7 @@ img_gray = cv2.cvtColor(origi_img, cv2.COLOR_BGR2GRAY)
 # kernel = np.ones((5,5),np.float32)
 
 # NOTE - test GaussianBlur by opencv
-dst = blur = cv2.GaussianBlur(origi_img,(35,35),0)
+dst = cv2.GaussianBlur(origi_img,(35,35),0)
 
 # NOTE -  Display image output
 cv2.imshow('Photo_midterm',dst)
